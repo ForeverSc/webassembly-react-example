@@ -11,6 +11,9 @@ class Home extends Component {
           <li>
             <Link to="/wasm-call-js">WebAssembly调用js</Link>
           </li>
+          <li>
+            <Link to="/benchmark">Benchmark</Link>
+          </li>
         </ul>
     );
   }

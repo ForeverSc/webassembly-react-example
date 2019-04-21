@@ -286,6 +286,9 @@ module.exports = function(webpackEnv) {
       ],
     },
     module: {
+      noParse: [
+        /benchmark/,
+      ],
       strictExportPresence: true,
       rules: [
         // Disable require.ensure as it's not a standard language feature.
