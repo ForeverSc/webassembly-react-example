@@ -7742,6 +7742,7 @@ serve-static@1.13.2:
 serve@^11.0.0:
   version "11.0.0"
   resolved "https://registry.yarnpkg.com/serve/-/serve-11.0.0.tgz#577f4e0f4b57058d12e3be19373f1a3d6d8826dc"
+  integrity sha512-Gnyyp3JAtRUo0dRH1/YWPKbnaXHfzQBiVh9+qSUi6tyVcVA8twUP2c+GnOwsoe9Ss7dfOHJUTSA4fdWP//Y4gQ==
   dependencies:
     "@zeit/schemas" "2.6.0"
     ajv "6.5.3"

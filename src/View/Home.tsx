@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 class Home extends Component {
   public render() {
     return (
-        <ul style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <ul style={{ display: 'flex', flexDirection: 'column' }}>
           <li>
             <Link to="/js-call-wasm">js调用WebAssembly</Link>
           </li>

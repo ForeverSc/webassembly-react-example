@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "asc": "asc src/Asm/fib.ts -b src/Wasm/fib.wasm -t src/Wasm/fib.wat",
+    "asc": "asc src/Asm/fib.ts -b src/Wasm/fib.wasm -t src/Wasm/fib.wat --validate --optimize",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "serve": "serve -s build"
   },
   "dependencies": {
     "@babel/core": "7.2.2",

@@ -23,7 +23,6 @@ class BenchmarkView extends Component {
   }
   private suite = new Benchmark.Suite();
 
-
   public async componentDidMount() {
     const { instance } = await wasmFib()
     const { fib } = instance.exports
