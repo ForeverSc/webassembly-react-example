@@ -13,13 +13,14 @@
   i32.const 1
   i32.eq
   local.tee $1
-  if (result i32)
-   local.get $1
-  else   
+  i32.eqz
+  if
    local.get $0
    i32.const 2
    i32.eq
+   local.set $1
   end
+  local.get $1
   if
    local.get $0
    return

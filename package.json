@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "asc": "asc src/Asm/fib.ts -b src/Wasm/fib.wasm -t src/Wasm/fib.wat --validate --optimize",
+    "asc": "asc src/Asm/fib.ts -b src/Wasm/fib.wasm -t src/Wasm/fib.wat --validate --optimize -O3",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
